@@ -62,6 +62,7 @@ function Cards({ colorMode }) {
               miniTitle="Atuação Estratégica em Inventários"
               title="O Inventário conectado ao Direito Civil: Soluções Completas"
               subtitle="Diferente de uma atuação genérica, aplicamos o Direito Civil de forma integrada para resolver gargalos que travam o processo:"
+              colorMode={colorMode}
             />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
@@ -80,7 +81,7 @@ function Cards({ colorMode }) {
                     <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center text-primary mb-6">
                       <Scale className="w-7 h-7" />
                     </div>
-                    <h3 className="text-xl font-mainFont font-bold text-primary mb-3">
+                    <h3 className="text-xl font-secondFont font-bold text-primary mb-3">
                       Sucessões + Família
                     </h3>
                     <p
@@ -109,7 +110,7 @@ function Cards({ colorMode }) {
                     <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center text-primary mb-6">
                       <HomeIcon className="w-7 h-7" />
                     </div>
-                    <h3 className="text-xl font-mainFont font-bold text-primary mb-3">
+                    <h3 className="text-xl font-secondFont font-bold text-primary mb-3">
                       Sucessões + Direito Imobiliário
                     </h3>
                     <p
@@ -139,7 +140,7 @@ function Cards({ colorMode }) {
                     <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center text-primary mb-6">
                       <Building2 className="w-7 h-7" />
                     </div>
-                    <h3 className="text-xl font-mainFont font-bold text-primary mb-3">
+                    <h3 className="text-xl font-secondFont font-bold text-primary mb-3">
                       Sucessões + Direito Empresarial
                     </h3>
                     <p
@@ -168,7 +169,7 @@ function Cards({ colorMode }) {
                     <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center text-primary mb-6">
                       <Coins className="w-7 h-7" />
                     </div>
-                    <h3 className="text-xl font-mainFont font-bold text-primary mb-3">
+                    <h3 className="text-xl font-secondFont font-bold text-primary mb-3">
                       Sucessões + Obrigações e Contratos
                     </h3>
                     <p
