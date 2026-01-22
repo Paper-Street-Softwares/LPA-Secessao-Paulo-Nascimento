@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sucessao.psnascimento.adv.br/sitemap.xml
