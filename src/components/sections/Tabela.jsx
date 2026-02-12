@@ -65,7 +65,7 @@ export default function InventarioComparativo({ colorMode }) {
             {/* Coluna Extrajudicial */}
             <div className="border-r">
               <div
-                className={`bg-emerald-600 ${text} font-semibold text-center p-3`}
+                className={`bg-emerald-800 ${text} font-semibold text-center p-3`}
               >
                 Inventário Extrajudicial (Cartório)
               </div>
