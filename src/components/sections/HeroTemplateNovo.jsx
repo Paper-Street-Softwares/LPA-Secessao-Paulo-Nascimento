@@ -167,14 +167,23 @@ function HeroTemplateNovo({
               className="relative order-1 lg:order-2"
             >
               <div
-                className={`relative rounded-[2.5rem] overflow-hidden aspect-[4/4] md:aspect-[4/4] shadow-2xl lg:aspect-[4/4] ring-1 ring-black/5 bg-gray-100 ${image}`}
+                className={`relative rounded-[1.5rem] phone2:rounded-[2.5rem] overflow-hidden aspect-[2/1] phone2:aspect-[3/2] md:aspect-[3/2] lg:aspect-[3/4] ring-1 ring-black/5 ${borderColor} ${image}`}
               >
+                <img
+                  src={content.texts.hero.heroDefaulMobiletImg}
+                  alt={content.texts.hero.alt}
+                  className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700 desktop1:hidden"
+                  width={621}
+                  height={349}
+                  fetchPriority="high"
+                />
+
                 <img
                   src={content.texts.hero.heroDefaultImage}
                   alt={content.texts.hero.alt}
-                  className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
-                  width={790}
-                  height={992}
+                  className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700 hidden desktop1:flex"
+                  width={621}
+                  height={828}
                   fetchPriority="high"
                 />
 

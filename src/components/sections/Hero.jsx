@@ -154,26 +154,23 @@ export default function Hero({
                 {/* Imagem principal */}
                 <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                   <MotionDivDownToUp className="relative flex justify-center w-full">
-                    <picture>
-                      <source
-                        srcSet={content.texts.hero.heroDefaultImageMobile}
-                        media="(max-width: 424px)"
-                      />
-                      <img
-                        src={content.texts.hero.heroDefaultImage}
-                        alt={content.texts.hero.alt}
-                        fetchpriority="high"
-                        decoding="sync"
-                        width="930"
-                        height="1287"
-                        className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
-                        ${
-                          colorMode === 'light'
-                            ? 'desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/20'
-                            : 'shadow-custom-opacity shadow-shadowHero/20'
-                        }`}
-                      />
-                    </picture>
+                    {/* <img
+                      src={content.texts.hero.heroDefaulMobiletImg}
+                      alt={content.texts.hero.alt}
+                      className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700 desktop1:hidden aspect-[2/1] phone2:aspect-[3/2] md:aspect-[3/2] lg:aspect-[3/4]"
+                      width={621}
+                      height={349}
+                      fetchPriority="high"
+                    />
+
+                    <img
+                      src={content.texts.hero.heroDefaultImage}
+                      alt={content.texts.hero.alt}
+                      className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700 hidden desktop1:flex aspect-[2/1] phone2:aspect-[3/2] md:aspect-[3/2] lg:aspect-[3/4]"
+                      width={621}
+                      height={828}
+                      fetchPriority="high"
+                    /> */}
 
                     {/* <div className="w-full">
                       <ImageGallery
